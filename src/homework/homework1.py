@@ -2,7 +2,6 @@ def get_hours_since_midnight(total_seconds):
     hours = total_seconds // 3600
     return hours
 
-total_seconds = int(input('Enter a number of seconds: '))
 hours = get_hours_since_midnight(total_seconds)
 format(hours,'02d')
 
