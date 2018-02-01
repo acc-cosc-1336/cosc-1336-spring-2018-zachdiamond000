@@ -1,3 +1,4 @@
+seconds=3800
 def get_hours_since_midnight(seconds):
     hours = seconds // 3600
     return hours
