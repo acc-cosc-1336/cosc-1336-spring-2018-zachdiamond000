@@ -1,7 +1,7 @@
 import unittest
 
-from homework3 import sum_odd_numbers
-from homework3 import list_of_even_numbers
+from src.homework.homework3 import sum_odd_numbers
+from src.homework.homework3 import list_of_even_numbers
 
 class TestHomework3(unittest.TestCase):
 
