@@ -1,4 +1,4 @@
-from assignment4 import factorial
+from src.assignments.assignment4 import factorial
 
 def main():#void function
     '''
