@@ -20,8 +20,9 @@ def main():#void function
     keep_going = 'y'
     while keep_going == 'y':
         x =int(input("Input a number between 1-10: "))
-        factorial(x)
+        result = factorial(x)
         print("Here is the factorial answer: ")
+        print(result)
 
         keep_going = input("Enter y to try again...")
 
