@@ -18,4 +18,4 @@ class Test_Assign6(unittest.TestCase):
         '''
         self.assertEqual((20,12,17,21), get_count_A_C_G_and_T_in_string('AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'))
 
-unittest.main(verbosity=3)        
+#unittest.main(verbosity=3)        
