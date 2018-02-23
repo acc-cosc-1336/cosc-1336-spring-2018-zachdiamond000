@@ -1,4 +1,4 @@
-from assignment6 import get_count_A_C_G_and_T_in_string
+from src.assignments.assignment6 import get_count_A_C_G_and_T_in_string
 #write the import for the function get_count_A_C_G_and_T_in_string from assignment 6 file
 
 '''
