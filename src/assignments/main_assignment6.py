@@ -18,5 +18,7 @@ def main():
     print('DNA String: ')
     dna_string = str('AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC')
     val1,val2,val3,val4 =get_count_A_C_G_and_T_in_string(dna_string)
+    
+    print('A', val1, ',', 'C', val2, ',', 'G', val3, ',', 'T', val4)
         
 main()
