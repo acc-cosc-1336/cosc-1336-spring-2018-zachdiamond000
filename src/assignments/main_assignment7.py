@@ -1,5 +1,5 @@
 #write the import for function for assignment7 sum_list_values
-from assignment7 import sum_list_values
+from src.assignments.assignment7 import sum_list_values
 '''
 Create a function named process_list that calls the sum_list_values function.
 Prints the list values and the sum of the element in the list as follows:
