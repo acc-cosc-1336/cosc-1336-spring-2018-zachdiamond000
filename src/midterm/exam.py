@@ -73,14 +73,14 @@ CREATE A TEST CASE IN THE exam_test.py file.
 
 def reverse_string(string1):
     
-    reverse_string = ''
+    rstring = ''
     i = -1
     count = len(string1)
     while count != 0:
-        reverse_string+=string1[i]
+        rstring+=string1[i]
         i = i-1
         count = count-1
-    return reverse_string
+    return rstring
 
 '''
 10 points
