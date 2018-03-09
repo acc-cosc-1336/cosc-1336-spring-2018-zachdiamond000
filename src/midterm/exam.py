@@ -11,7 +11,7 @@ def get_miles_per_hour(kilometers,minutes):
         hours = minutes / 60
         return kilometers * .621371 / hours
     else:
-        return 'Invalid arguements'
+        return 'Invalid arguments'
         
     
     
@@ -50,7 +50,7 @@ def get_bonus_pay_amount(sales):
     elif sales >= 1500 and sales <= 1999:
         return sales * .08
     else:
-        return 'Invalid arguements'
+        return 'Invalid arguments'
 
 
 
@@ -97,26 +97,7 @@ CREATE A TEST CASE IN THE exam_test.py file.
 '''
 
 def get_list_min_max(list1):
-
-    
-
-    list2 = []
-    list3 = []
-    num = len(list1)
-    i = 1
-    
-    for value in list1:
-        if list1[i] > list1[i + 1]:
-            list2 = list1[i]
-            i +=1
-        else:
-            if list1[i] < list1[i+1]:
-                list3 = list1[i]
-                i +=1
-
-    
-    return [list2, list3]
-
+    return  [min(list1[1:]), max(list1[1:])]
 
 '''
 25 points
@@ -138,10 +119,17 @@ Return Value:
 
 '''
 def get_list_min_max_file():
-    file = open('quiz.dat','r')
-    return_list=[]
+    file = open('quiz.dat', 'r')
+    tmp_list = []
 
     for line in file:
-        list1 = get_list_min_max(line)
+        list1 = line.split()
+        i = 0
+        while i < len(list1):
+            if list1[i].isdigit():
+                list1[i] = int(list1[i])
+            i += 1
 
-    return list1                                        
+        tmp_list += get_list_min_max(list1)
+
+    return get_list_min_max(tmp_list)
