@@ -26,7 +26,7 @@ class Test_Midterm(unittest.TestCase):
         5 points
         Test with -5 return value should be 'Invalid arguments'
         '''
-        self.assertEqual('Invalid arguements', get_bonus_pay_amount(-5))
+        self.assertEqual('Invalid arguments', get_bonus_pay_amount(-5))
 
 
     def test_reverse_string(self):
@@ -51,7 +51,7 @@ class Test_Midterm(unittest.TestCase):
         5 points
         Test with quiz.data file the return value should be [2,89]
         '''
-        self.assertEqual([2, 89], get_list_min_max('quiz.dat'))
+        self.assertEqual([2, 89], get_list_min_max())
 
 
 #unittest.main(verbosity=2)
