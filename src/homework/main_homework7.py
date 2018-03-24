@@ -1,5 +1,5 @@
 #write import statement for homework 7 file
-from homework7 import get_p_distance_matrix
+from src.homework.homework7 import get_p_distance_matrix
 '''
 Write a main function to...
 Read p_distance.dat file
