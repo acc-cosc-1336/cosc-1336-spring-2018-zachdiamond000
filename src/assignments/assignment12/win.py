@@ -14,7 +14,7 @@ class Win(Tk):
 
         self.converter = Converter()
         
-        self.label2 = Label(self, text= self.converter.get_miles_from_km(100)).grid(row=1, column=1)
+        self.label2 = Label(self, text= 'Miles: ' + str(self.converter.get_miles_from_km(100))).grid(row=1, column=1)
         
 
         
