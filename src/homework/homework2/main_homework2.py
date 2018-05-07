@@ -1,4 +1,4 @@
-from homework2 import get_time
+from src.homework.homework2.homework2 import get_time
 
 #write code here to call the get_time function with valid values
 #save the result of the function to a variable and display to screen
