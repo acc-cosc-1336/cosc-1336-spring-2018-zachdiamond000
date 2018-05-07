@@ -1,7 +1,7 @@
 import unittest
 
-from src.homework.homework2 import get_time
-from src.homework.homework2 import time_from_utc
+from src.homework.homework2.homework2 import get_time
+from src.homework.homework2.homework2 import time_from_utc
 
 class TestHomework2(unittest.TestCase):
 
