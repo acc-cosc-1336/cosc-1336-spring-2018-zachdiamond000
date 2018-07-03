@@ -26,9 +26,9 @@ def list_of_even_numbers(num):
     #write your code starting here; you'll need to concatenate evens to even_numbers
     while i > num +1:
         if i % 2 == 0:
-            i(str) + even_numbers
-        else:
-            i + 1
+            even_numbers = even_numbers + str(i) + ','
+        
+        i = i + 1
         
 
     return even_numbers
@@ -64,9 +64,10 @@ def main1():
     '''
     #write your code here
     x = int(input("Please enter a number here: "))
-    result = sum_odd_numbers(x)
-    print (result)
-
-    y = int(input("Please enter a number here: "))
-    result = list_of_even_numbers(y)
-    print (result)
+    
+    for i in range(1, x + 1):
+        result = sum_odd_numbers(i)
+        print (result)
+        result = list_of_even_numbers(i)
+        print (result)
+        
