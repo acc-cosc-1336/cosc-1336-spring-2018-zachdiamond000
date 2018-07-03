@@ -25,5 +25,5 @@ def factorial(number):#value return function
     total = 1
     for i in range ( 1, number):
         total = total * (i+1)
-        print(number, '\t', total)
+
     return total
