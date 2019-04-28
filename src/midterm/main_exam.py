@@ -8,11 +8,12 @@ Prompt user for a string (assume user will always give you good data).
 Pass the string to the reverse string function and display the reversed string
 
 '''
-again = 'y'
+def main():
+    again = 'y'
 
-while again == 'y':
-    string1 = input('Please input a string: ')
-    reverse_string(string1)
-    print(rstring)
-    again = input('continue...')
+    while again == 'y':
+        string1 = input('Please input a string: ')
+        reverse_string(string1)
+        print(rstring)
+        again = input('continue...')
     
